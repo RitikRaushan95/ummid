@@ -32,6 +32,7 @@ function Innercard({ item }) {
         </svg>
       </a>
     </div>
+    
   );
 }
 
