@@ -25,6 +25,7 @@ function Navbar() {
       </div>
     </header>
     <hr className="mx-auto border-solid border-b-1 border-slate-500 w-11/12" />
+    
     </>
   );
 }
