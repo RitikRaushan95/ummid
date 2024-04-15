@@ -15,7 +15,8 @@
       "और तो क्या ही लिखूं मैं नारी के सम्मान में,",
       "हम सब तो खुद ही गुम हो गए हैं अपने ही पहचान में।"
     ],
-    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPfH0bzK_4DZOrtQGYJjG32KkSJSv9tztnegHxf8FMaA&s'
+    url: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTPfH0bzK_4DZOrtQGYJjG32KkSJSv9tztnegHxf8FMaA&s',
+    rating:5
   },
   {
     poet: "मुंशी प्रेमचंद",
@@ -34,7 +35,8 @@
       "बैठ जाता हूं, मिट्टी पर अक्सर, क्योंकि मुझे अपनी,",
       "औकात अच्छी लगती है।"
     ],
-    url:'https://wd-image.webdunia.com/image-conversion/process-aws.php?url=https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2020-07/30/full/1596107588-0268.jpg&w=&h=&outtype=webp'
+    url:'https://wd-image.webdunia.com/image-conversion/process-aws.php?url=https://nonprod-media.webdunia.com/public_html/_media/hi/img/article/2020-07/30/full/1596107588-0268.jpg&w=&h=&outtype=webp',
+    rating:6
   },
   {
     poet: "हरिवंश राय बच्चन",
@@ -63,7 +65,8 @@
       "उठे कर्म-कल्लोल।",
       "अरे भारत! उठ, आँखें खोल॥"
     ],
-    url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVsjGLbOuiVBnZpMskuW1Mlm8W2XfpAHkOAuoWvZRcgg&s'
+    url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVsjGLbOuiVBnZpMskuW1Mlm8W2XfpAHkOAuoWvZRcgg&s',
+    rating:7
   },
   {
     poet: "रामधारी सिंह 'दिनकर'",
@@ -85,7 +88,8 @@
       "मेंहदी जब सहती है प्रहार, बनती ललनाओं का सिंगार",
       "जब फूल पिरोये जाते हैं, हम उनको गले लगाते हैं।"
     ],
-    url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTzNwCQpoM8LFlL8_Y8Z6_5ycOXOchM0oKJNI9edAO4A&s'
+    url:'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTzNwCQpoM8LFlL8_Y8Z6_5ycOXOchM0oKJNI9edAO4A&s',
+    rating:3
   },
   {
     poet: "अटल बिहारी वाजपेयी ",
@@ -108,7 +112,8 @@
       "नव दधीचि हड्डियाँ गलाएँ",
       "आओ फिर से दिया जलाएँ"
     ],
-    url: 'https://img.jagranjosh.com/imported/images/E/Articles/Atal-Bihari-Vajpayee-Interesting-Facts.webp'
+    url: 'https://img.jagranjosh.com/imported/images/E/Articles/Atal-Bihari-Vajpayee-Interesting-Facts.webp',
+    rating:2
   },
   {
     poet: "डॉ. अनामिका अम्बर जैन",
@@ -129,7 +134,8 @@
       "अगर तूने निकला है किसी के पॉ का कटा,",
       "तो ये तय है तेरे दिल में कोई इंसान रहता है।"
     ],
-    url: 'https://mykavisammelan.com/wp-content/uploads/2022/05/anamika-amber-803x800.jpg'
+    url: 'https://mykavisammelan.com/wp-content/uploads/2022/05/anamika-amber-803x800.jpg',
+    rating:1
   }
   ]
   
