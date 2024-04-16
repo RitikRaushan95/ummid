@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function Innercard({ item }) {
+function Innercard({item}) {
   
   const readMore = () => {
     const premover = document.querySelector('.line-clamp-3');
