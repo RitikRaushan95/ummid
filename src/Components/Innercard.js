@@ -7,12 +7,6 @@ function Innercard({item}) {
     premover.classList.remove('line-clamp-3');
   };
 
-  const readLess = () => {
-    const pTags = document.getElementsByTagName('p');
-    for (let i = 0; i < pTags.length; i++) {
-      pTags[i].classList.add('line-clamp-3');
-    }
-  };
 
   return (
     <div className="p-5 m-5 md:w-1/4 sm:mb-0 mb-6 border-2 border-grey rounded-xl hover:border-white  hover:shadow-lg hover:shadow-purple-500/60
@@ -25,7 +19,7 @@ function Innercard({item}) {
         {item.lines}
       </p>
       <a className="text-indigo-500 inline-flex items-center cursor-pointer"
-        onClick={readMore} onDoubleClick={readLess}
+        onClick={readMore}
       >
         Read More
         <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
