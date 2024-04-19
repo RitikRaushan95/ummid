@@ -5,7 +5,6 @@ import Innercard from './Innercard.js';
 function Card() {
 
   const [poem,setPoem]=useState(poemdata);
-   
   const myPoem=poem.map((el,index)=>{
               return <Innercard key={index} item={el}/>
             })
