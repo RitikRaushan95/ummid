@@ -1,8 +1,16 @@
 import React from "react";
 import ReactDOM from 'react-dom/client'
 import './index.css'
-import Main from "./Main";
+import Navbar from './Components/Navbar'
+import Card from './Components/Card'
+import Footer from './Components/Footer'
+
 const root=ReactDOM.createRoot(document.getElementById('root'))
 root.render(
-    <Main/>
+    <>
+      <Navbar/>
+      <Card/>
+      <Footer/>
+    </>
+   
 )
