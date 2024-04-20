@@ -13,7 +13,7 @@ function Navbar(props) {
   return (
     <>
     <header className="text-gray-600 body-font cursor-pointer">
-      <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between  ">
+      <div className="container mx-auto flex flex-wrap flex-col mt-3 md:flex-row items-center justify-between  ">
         <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
           <img src={logo} alt="" className="w-24 h-14 mr-5" />
           <img src={logoname} alt="" className="w-36 h-14" />
@@ -26,7 +26,7 @@ function Navbar(props) {
     </nav>
         <div className="flex flex-col md:flex-row justify-center items-center ">
           <input type='text' className='border-2 mr-5 w-60 border-slate-500 hover:border-purple-900 p-2 rounded-md' placeholder='Search for poem' value={search}  onChange={assignSearch}/>
-          <button className="inline-flex  font-medium items-center bg-purple-500 hover:bg-purple-900 hover:text-white border-0 py-1 px-3 focus:outline-none rounded text-base mt-4 md:mt-0 text-black h-10 justify-center" onClick={fetchValue}>Search
+          <button className="inline-flex  font-medium items-center bg-purple-500 hover:bg-purple-900 hover:text-white border-0 py-1 px-3 focus:outline-none rounded text-base  md:mt-0 text-black h-10 justify-center" onClick={fetchValue}>Search
           </button>
         </div>
       </div>
