@@ -13,4 +13,4 @@ Ummid is more than just a website; it's a haven for poets to share their innermo
 
 Come join us at Ummid and let your words ignite hope and inspiration!
 
-https://ummid.vercel.app/stories
+https://ummid.vercel.app
