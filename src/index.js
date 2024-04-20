@@ -6,8 +6,9 @@ import Card from './Components/Card'
 import Footer from './Components/Footer'
 import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Stories from "./Components/Stories";
-import Feedback from "./Components/Write";
+
 import Write from "./Components/Write";
+import Feedback from "./Components/Feedback";
 
 const Ummid=()=>{
     return(
@@ -35,6 +36,10 @@ const myRoute=createBrowserRouter([
             {
                 path:"/write",
                 element:<Write/>
+            },
+            {
+                path:"/feedback",
+                element:<Feedback/>
             }
         ],
     },
