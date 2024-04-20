@@ -9,6 +9,7 @@ import Stories from "./Components/Stories";
 
 import Write from "./Components/Write";
 import Feedback from "./Components/Feedback";
+import Storycard from "./Components/Storycard";
 
 const Ummid=()=>{
     return(
@@ -31,7 +32,7 @@ const myRoute=createBrowserRouter([
             },
             {
                 path:"/stories",
-                element:<Stories/>
+                element:<Storycard/>
             },
             {
                 path:"/write",

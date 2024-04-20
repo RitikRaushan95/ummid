@@ -1,15 +1,16 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.min.js'
-function Stories() {
+
+function Stories({details}) {
+
+
   return (
-    <div class="relative max-w-xl mx-auto mt-20">
-    <img class="h-64 w-full object-cover rounded-md" src="https://images.unsplash.com/photo-1680725779155-456faadefa26" alt="Random image"/>
-    <div class="absolute inset-0 bg-gray-700 opacity-60 rounded-md"></div>
-    <div class="absolute inset-0 flex items-center justify-center">
-        <h2 class="text-white text-3xl font-bold">Get Lost in Mountains</h2>
+    <div class="relative flex flex-wrap flex-row mx-auto mt-10 cursor-pointer transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-90  duration-300">
+      <div className='m-5'>
+        <a href={details.story} target='new'><img class="h-60 w-40 object-cover rounded-md" src={details.url} alt="Random image"/></a>
+        </div>
     </div>
-</div>
   )
 }
 
