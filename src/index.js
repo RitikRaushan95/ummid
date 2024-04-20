@@ -1,28 +1,39 @@
 import React from "react";
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom/client'
 import './index.css'
 import Navbar from './Components/Navbar'
 import Card from './Components/Card'
 import Footer from './Components/Footer'
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Changed import statement
+import { createBrowserRouter, Outlet, RouterProvider } from "react-router-dom";
 import Stories from "./Components/Stories";
 
-const Ummid = () => {
-    return (
+const Ummid=()=>{
+    return(
         <>
-            <Navbar />
-            <Card />
-            <Footer />
-        </>
+        <Navbar/>
+        <Outlet/>
+        <Footer/>
+      </>
     )
 }
 
-ReactDOM.render(
-    <Router>
-        <Routes> {/* Use Routes instead of Route */}
-            <Route path="/" element={<Ummid />} />
-            <Route path="/story" element={<Stories />} />
-        </Routes>
-    </Router>,
-    document.getElementById('root')
-);
+const myRoute=createBrowserRouter([
+    {
+        path:'/',
+        element:<Ummid/>,
+        children:[
+            {
+                path:"/",
+                element:<Card/>
+            },
+            {
+                path:"/stories",
+                element:<Stories/>
+            }
+        ],
+    },
+   
+])
+
+const root=ReactDOM.createRoot(document.getElementById('root'))
+root.render(<RouterProvider router={myRoute} />)
