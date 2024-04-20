@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import poemdata from '../assests/Data.js';
-import Innercard from './Innercard.js';
 import Poemcard from './Poemcard.js';
 
 function Card() {
